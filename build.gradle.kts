@@ -9,7 +9,13 @@
 plugins {
     // Apply the java-library plugin to add support for Java Library
     `java-library`
+
+    // Required by JitPack.io
+    `maven-publish`
+
 }
+
+group = "com.github.project2100";
 
 repositories {
     // Use jcenter for resolving dependencies.
